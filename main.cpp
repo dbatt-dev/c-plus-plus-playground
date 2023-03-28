@@ -1,4 +1,5 @@
 #include <iostream>
+#include <iomanip>
 
 //using namespace std;
 int main() {
@@ -11,5 +12,6 @@ int main() {
     }
     std::cout << i << "\n";
     std::cout.flush();
+    std::cout << "Ints" << std::setw(10) "Floats" << std::endl;
     return 0;
 }
